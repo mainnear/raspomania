@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspomanía</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:linear-gradient(90deg,#ff4d6d,#ffb703);
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#333;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#ffb703;
+        }
+
+        section{
+            padding:50px 20px;
+            text-align:center;
+        }
+
+        .inicio{
+            background:url('https://images.unsplash.com/photo-1563805042-7684c019e1cb') center/cover;
+            color:BLACK;
+            height:400px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .inicio h2{
+            font-size:3rem;
+            text-shadow:2px 2px 5px black;
+        }
+
+        .productos{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background:white;
+            width:250px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,.2);
+        }
+
+        .card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+<header>
+  <h1>🍧 RASPOMANÍA 🍧</h1>
+  <p>El sabor que refresca tu día</p>
+</header>
+<nav>
+    <a href="index.html">INICIO</a>
+    <a href="SERVICIOS.html">SERVICIOS</a>
+    <a href="PRODUCTOS.html">PRODUCTOS</a>
+	<a href="COMBOS.html">COMBOS</a>
+
+</nav>
+
+<section id="inicio" class="inicio">
+    <h2>Bienvenido a Raspomanía</h2>
+    <p><strong>Los mejores <em>raspados</em> y frappés de la ciudad.</strong></p>
+</section>
+
+<section id="servicios">
+  <h2>Servicios</h2>
+    <p>✔ Venta de raspados artesanales</p>
+    <p>✔ Frappés de diferentes sabores</p>
+    <p>✔ Eventos y fiestas</p>
+    <p>✔ Servicio para reuniones especiales</p>
+</section>
+
+<section id="productos">
+    <h2>Nuestros Productos</h2>
+
+    <div class="productos">
+        <div class="card">
+            <h3>Raspado de Fresa</h3>
+            <p>Refrescante y delicioso.</p>
+        </div>
+
+        <div class="card">
+            <h3>Frappé Oreo</h3>
+            <p>Cremoso y con mucho sabor.</p>
+        </div>
+
+        <div class="card">
+            <h3>Raspado Chamoy</h3>
+            <p>Perfecto para los amantes del picante.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>📞 Teléfono: 971 717 6857</p>
+    <p>📧 Correo: contacto@raspomania.com</p>
+    <p>📱 Facebook:https://www.facebook.com/share/1ESFYQuKD9/?mibextid=wwXIfr</p>
+	<p>📱 Tiktok:https://www.tiktok.com/@_raspadomania_?_r=1&_t=ZS-96pxzJsnNlV</p>
+	<p>📱 Instragram:https://www.instagram.com/_raspadomania_?igsh=Y3pyNWZwNGNwZ281&utm_source=qr</p>
+</section>
+
+<section id="ubicacion">
+    <h2>Ubicación</h2>
+    <p>📍av, Juárez entre la calle sonora y Oax de la colonia Benito Juárez Santo Domingo Tehuantepec</p>
+</section>
+
+<footer>
+  <p>© 2026 Raspomanía | Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
